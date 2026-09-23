@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-poppins bg-light dark: bg-primary
+}
+
+.active {
+    @apply text-black dark:text-white bg-neutral-300 dark:bg-neutral-900;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+}
+
+.navbar {
+    backdrop-filter: blur(4px); /* Adjust the blur value as needed */
+    -webkit-backdrop-filter: blur(4px); /* For Safari support */
+}
