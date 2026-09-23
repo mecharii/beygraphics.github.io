@@ -1,2 +1,0 @@
-export const appName = 'tuna.one'
-export const appDescription = 'Hello! I am a student interested in web development and database management. I work with frameworks like Node.js and Vue.js. I enjoy creating user-friendly and functional web applications.'
